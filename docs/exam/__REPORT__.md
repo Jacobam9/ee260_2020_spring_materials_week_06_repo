@@ -10,9 +10,24 @@ Embed math equations into Github Markdown file using a [web service](https://www
 Perform the following number-system conversions (show your work):
 
 - a. <a href="https://www.codecogs.com/eqnedit.php?latex={129}_{10}&space;=&space;{?}_{2}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?{129}_{10}&space;=&space;{?}_{2}" title="{129}_{10} = {?}_{2}" /></a>  
+
+129/2 = 64 remainder 1. 64/2 = 32 remainder 0. 32/2 = 16 remainder 0. 16/2 = 8 remainder 0. 8/2 =4  remainder 0. 4/2 = 2 remainder 0. 2/2 = 1 remainder 0. 1/2= remainder 1.
+
+Flip and put in order: 10000001_{2}
+
 - b. <a href="https://www.codecogs.com/eqnedit.php?latex={0011010}_{2}&space;=&space;{?}_{10}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?{0011010}_{2}&space;=&space;{?}_{10}" title="{0011010}_{2} = {?}_{10}" /></a>  
+
+= 0*(2^0) + 1*(2^1) + 0*(2^2) + 1*(2^3) + 1*(2^4) + 0*(2^5) + 0*(2^6) = 2 + 8 + 16 = 26_{10}
+
 - c. <a href="https://www.codecogs.com/eqnedit.php?latex={0F100}_{16}&space;=&space;{?}_{2}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?{0F100}_{16}&space;=&space;{?}_{2}" title="{0F100}_{16} = {?}_{2}" /></a>  
+
+Each hexadecimal is 4 binary digits, F = 15 (base 10) = 1111 (base 2)
+	0000 1111 0001 0000 0000_{2}
+
 - d. <a href="https://www.codecogs.com/eqnedit.php?latex={1001101101101}_{2}&space;=&space;{?}_{16}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?{1001101101101}_{2}&space;=&space;{?}_{16}" title="{1001101101101}_{2} = {?}_{16}" /></a> 
+
+1001101101101 : this has 13 digits,k but  need to be a factor of 4 digits so add zeros:
+0001 0011 0110 1101 = 136D_{16}
 
 # (5 pts)
 Evaluate the Boolean equation F = a AND (NOT b OR (c AND d)) for the given values
@@ -20,6 +35,10 @@ of variables a, b, c, and d:
 
 - a. a=1, b=1, c=0, d=1  
 - b. a=0, b=0, c=0, d=1  
+
+a. F = 1 AND (NOT 1 OR (0 AND 1)) = 1 AND (0 OR 0) = 1 AND 0 = 0
+b. F = 0 AND (NOT 0 OR (0 AND 1)) = 0 AND (1 OR 0) = 0 AND 1 = 0  
+
 
 # (5 pts)
 Draw the NAND(x,y) gate CMOS transistor circuit. Show the conduction path and output
@@ -30,6 +49,8 @@ value when:
 
 # (5 pts)
 Convert the following equation directly to gate-level circuits: F = a + bcd’ + a'e + f’
+
+![](PictureP.PNG)
 
 # (5 pts)
 Expand F(w,y,z) = wy to 
