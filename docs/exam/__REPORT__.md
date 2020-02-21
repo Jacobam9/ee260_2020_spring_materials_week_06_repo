@@ -1,8 +1,8 @@
 ---
-title: 
-author:
-partner:
-date:
+title: Exam #1
+author: Jacob Marutani 
+partner: Khanh Nygen
+date: 2/21/2020
 ---
 Embed math equations into Github Markdown file using a [web service](https://www.codecogs.com/latex/eqneditor.php)
 
@@ -10,7 +10,16 @@ Embed math equations into Github Markdown file using a [web service](https://www
 Perform the following number-system conversions (show your work):
 
 - a. <a href="https://www.codecogs.com/eqnedit.php?latex={129}_{10}&space;=&space;{?}_{2}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?{129}_{10}&space;=&space;{?}_{2}" title="{129}_{10} = {?}_{2}" /></a>  
+
+129/2 = 64, remainder 1. 64/2 = 32 remainder 0. 32/2 = 16 remainder 0. 16/2 = 8 remainder 0. 8/2 = 4 remainder 0. 4/2 =2 remainder 0.
+2/2 = 1 remainder 0. 1/2 = reaminder 1.
+
+flip and put in order to get: 10000001
+
 - b. <a href="https://www.codecogs.com/eqnedit.php?latex={0011010}_{2}&space;=&space;{?}_{10}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?{0011010}_{2}&space;=&space;{?}_{10}" title="{0011010}_{2} = {?}_{10}" /></a>  
+
+
+
 - c. <a href="https://www.codecogs.com/eqnedit.php?latex={0F100}_{16}&space;=&space;{?}_{2}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?{0F100}_{16}&space;=&space;{?}_{2}" title="{0F100}_{16} = {?}_{2}" /></a>  
 - d. <a href="https://www.codecogs.com/eqnedit.php?latex={1001101101101}_{2}&space;=&space;{?}_{16}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?{1001101101101}_{2}&space;=&space;{?}_{16}" title="{1001101101101}_{2} = {?}_{16}" /></a> 
 
